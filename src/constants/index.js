@@ -175,7 +175,7 @@ const experiences = [
   // },
   {
     title: "Full stack Developer",
-    // company_name: "Meta",
+    company_name: "Hire me",
     icon: hire,
     iconBg: "#E6DEDD",
     date: "August 2025 - Present",
