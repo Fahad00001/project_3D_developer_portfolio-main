@@ -4,12 +4,12 @@ pipeline {
     stages {
         stage('Install') {
             steps {
-                bat 'npm install'
+                bat 'npm install --legacy-peer-deps && next build'
             }
         }
         stage('Build') {
             steps {
-                bat 'npm run build'
+                bat 'npm run vercel-build'
             }
         }
         stage('Deploy') {
